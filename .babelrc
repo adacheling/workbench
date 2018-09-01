@@ -1,0 +1,15 @@
+{
+  "presets" : ["env", "react"],
+  "compact" : true,
+  "plugins": [
+    "transform-es2015-spread",
+    "transform-object-rest-spread",
+    "react-hot-loader/babel",
+    ["transform-runtime", {
+      "helpers": false,
+      "polyfill": false,
+      "regenerator": true,
+      "moduleName": "babel-runtime"
+    }]
+  ]
+}
