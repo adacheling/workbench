@@ -7,9 +7,9 @@ export default () => (
     <p className="subtitle is-4">Select Strategic Roadmap:</p>
     <div className="select">
       <select>
-        <option>imp-rmp – 2/01/17</option>
-        <option>imp-rmp – 5/01/17</option>
-        <option>imp-rmp – 7/10/17</option>
+        <option>stg-rmp – 2/01/17</option>
+        <option>stg-rmp – 5/01/17</option>
+        <option>stg-rmp – 7/10/17</option>
       </select>
     </div>
 

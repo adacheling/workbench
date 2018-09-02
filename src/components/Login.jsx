@@ -38,7 +38,7 @@ export default class Login extends React.Component {
         <div className="hero-body">
           <div className="container has-text-centered max-d">
             <div className="column">
-              <h3 className="title has-text-grey">Login</h3>
+              <h3 className="title has-text-grey">Workbench Login</h3>
               <p className="subtitle has-text-grey">Please log in to proceed.</p>
               <div className="box">
                 <form onSubmit={this.handleSubmit}>
