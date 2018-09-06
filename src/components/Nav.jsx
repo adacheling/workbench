@@ -43,7 +43,7 @@ function buildNav(nav, recursive = false) {
 
 
 const Nav = ({ nav }) => (
-  <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
+  <nav className="navbar" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
       <Link to="/" className="navbar-item">
         <FontAwesomeIcon icon={faHome} size="2x" />
