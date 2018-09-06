@@ -8,7 +8,7 @@ export default () => (
     <div className="container">
       <div className="content has-text-left">
         <p>
-          <copyright>&copy; 2018 Archemy, Inc. or its affiliates</copyright> <n> | </n> </n><a href="/Legal/#">Legal</a>
+          <copyright>&copy; 2018 Archemy, Inc. or its affiliates</copyright>
         </p>
       </div>
     </div>
