@@ -254,7 +254,7 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
   text-decoration: underline;
 }
 
-.title {
+.nav-title {
   color: rgba(230,190,138,0.8);
   font-size: 1.2em;
   font-weight: 600;
@@ -364,7 +364,7 @@ a.blog-title {
 }
 
 footer .small-print {
-  background-color: #ebf6fa;
+  background-color: #1F5F71;
   padding-top: 10px;
   position: fixed;
   bottom: 0px;
