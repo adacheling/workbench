@@ -71,6 +71,7 @@ class App extends React.Component {
             </aside>
           </article>
         </section>
+		<Footer />
       </main>
     );
   }
