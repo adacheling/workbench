@@ -16,7 +16,7 @@ import Reuse     from './Reuse';
 import Adapt     from './Adapt';
 import Deploy     from './Deploy';
 import navSwitch from '../homeNav';
-
+import Footer    from './Footer';
 import './App.css';
 
 
