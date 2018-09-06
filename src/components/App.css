@@ -19,25 +19,6 @@ body {
 
 html {
   overflow: scroll;
-}
-
-@keyframes image{
-  0%{
-    background-color:#ebf6fa;
-  }
-  25%{
-    background-color:#d7eef4;
-  }
-  50%{
-    background-color:#c3e5ef;
-  }
-  75%{
-
-    background-color:#d7eef4;
-  }
-  100%{
-    background-color:#ebf6fa;
-    }
 } 
 
 .splash {
