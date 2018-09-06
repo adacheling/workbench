@@ -273,6 +273,15 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
   text-decoration: underline;
 }
 
+.title {
+  color: rgba(230,190,138,0.8);
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 15px 0px 0px 16px;
+  text-decoration:none;
+  display:block;
+}
+
 copyright {
   color: rgba(230,190,138,0.8);
   font-weight: bold;
