@@ -36,7 +36,7 @@ class App extends React.Component {
         <Route
           path="*"
           render={props => (
-            <Nav nav={navSwitch(props.location.pathname)} />
+            <Nav className="navbar" nav={navSwitch(props.location.pathname)} />
           )}
         />
         <section className="container">
