@@ -62,7 +62,8 @@ class App extends React.Component {
                     </span>
                   )}
                 />
-
+				<Route exact path="/solution/operate" component={Solution} />
+				<Route exact path="/solution/visualize" component={Solution} />
               </Switch>
             </main>
             <aside className="column is-one-quarter">

@@ -35,6 +35,26 @@ const build = [
   { Help: '' },
 ];
 
+const operate = [
+  { File: '' },
+  { Edit: '' },
+  { View: '' },
+  { Build: '' },
+  { Operate: '' },
+  { Visualize: '' },
+  { Help: '' },
+];
+
+const visualize = [
+  { File: '' },
+  { Edit: '' },
+  { View: '' },
+  { Build: '' },
+  { Operate: '' },
+  { Visualize: '' },
+  { Help: '' },
+];
+
 module.exports = (key) => {
   switch (key) {
     case '/solution/build':
