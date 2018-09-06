@@ -6,13 +6,11 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export default () => (
   <footer className="footer">
     <div className="container">
-       <div class="small-print">
-            <div class="container">
-                <span class="pull-left">
-       	            <copyright>&copy; 2018 Archemy, Inc. or its affiliates</copyright> <n> | </n> </n><a href="/Legal/#">Legal</a>
-                </span>
-            </div>
-        </div>
+      <div className="content has-text-left">
+        <p>
+          <copyright>&copy; 2018 Archemy, Inc. or its affiliates</copyright> <n> | </n> </n><a href="/Legal/#">Legal</a>
+        </p>
+      </div>
     </div>
   </footer>
 );
