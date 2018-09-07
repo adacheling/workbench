@@ -6,12 +6,12 @@ export default () => (
   <aside className="section">
     <h4 className="is-size-4">Shortcuts</h4>
     <div className="buttons">
-      <MappleToolTip>
+      <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
-          Show Mapple Tip on this
+		  <button className="button" type="button">EAMTk</button>
         </div>
         <div>
-          Hey! this is damn easy
+		  EA Mgmt. Toolkit
         </div>
       </MappleToolTip>
 	  <button className="button" type="button">EA Mgmt. Toolkit</button>
