@@ -27,35 +27,3 @@ export default () => (
     </div>
   </aside>  
 );
-
-var MappleToolTip = require('reactjs-mappletooltip');
-const PageWithToolTip = () => {
-  return(
-    <div>
-
-      {/* Default Mapple */}
-
-      <MappleToolTip>
-        <div>
-          Show Mapple Tip on this
-        </div>
-        <div>
-          Hey! this is damn easy
-        </div>
-      </MappleToolTip>
-
-      {/* customized Mapple */}
-
-      <MappleToolTip float={true} direction={'bottom'} mappleType={'warning'}>
-        <div>
-          Float in bottom direction
-        </div>
-        <div>
-          direction = 'bottom'<br/>
-          float = true<br/>
-          mappleType = 'warning'
-        </div>
-      </MappleToolTip>
-    </div>
-  );
-}
