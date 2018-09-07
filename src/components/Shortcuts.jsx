@@ -1,15 +1,6 @@
 import React from 'react';
 
-this.state = { hover: false };
-handleMouseIn() {
-  this.setState({ hover: true })
-}
-handleMouseOut() {
-  this.setState({ hover: false })
-}
-const tooltipStyle = {
-  display: this.state.hover ? 'block' : 'none'
-}
+this.state = { hover: false }
 
 export default () => (
   <aside className="section">
@@ -30,4 +21,15 @@ export default () => (
       <button className="button" type="button">Workbench Forum</button>
     </div>
   </aside>
+  
+  handleMouseIn() {
+    this.setState({ hover: true })
+  }
+  handleMouseOut() {
+    this.setState({ hover: false })
+  }
+  const tooltipStyle = {
+    display: this.state.hover ? 'block' : 'none'
+  }
+  
 );
