@@ -1,6 +1,6 @@
 import React from 'react';
 
-this.state = { hover: false }
+this.state = { hover: false };
 handleMouseIn() {
   this.setState({ hover: true })
 }
