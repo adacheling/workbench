@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default () => (
 
-  getInitialState: function() {
+  getInitialState() {
     return {
       companies:[
         { name: 'company1',  jobs: ['job1-1', 'job1-2', 'job1-3']},
@@ -13,13 +13,13 @@ export default () => (
       selectedCompany: 'company1'
     }
   },
-  handleChange: function(e) {
+  handleChange(e) {
     console.log(this.state)
     this.setState({selectedCompany: e.target.value})
   },
   <form className="box">
   
-    render: function() {
+    render() {
     let company = this.state.companies.filter(company => {
               return company.name === this.state.selectedCompany
             })
