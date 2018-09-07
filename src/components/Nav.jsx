@@ -1,5 +1,6 @@
 import React               from 'react';
 import PropTypes           from 'prop-types';
+import './App.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome }          from '@fortawesome/free-solid-svg-icons';
