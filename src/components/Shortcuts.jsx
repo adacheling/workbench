@@ -6,14 +6,12 @@ export default () => (
   <aside className="section">
     <h4 className="is-size-4">Shortcuts</h4>
     <div className="buttons">
-	<MappleToolTip float={true} direction={'right'} mappleType={'info'}>
+      <MappleToolTip>
         <div>
-          Float in bottom direction
+          Show Mapple Tip on this
         </div>
         <div>
-          direction = 'right'<br/>
-          float = true<br/>
-          mappleType = 'info'
+          Hey! this is damn easy
         </div>
       </MappleToolTip>
 	  <button className="button" type="button">EA Mgmt. Toolkit</button>
