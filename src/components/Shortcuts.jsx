@@ -1,6 +1,6 @@
 import React from 'react';
 
-var MappleToolTip = require('reactjs-mappletooltip');
+import MappleToolTip from 'reactjs-mappletooltip';
 
 export default () => (
   <aside className="section">
