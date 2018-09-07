@@ -7,7 +7,7 @@ export default () => (
   <nav className="navbar" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
 	  <div className="navbar-item">
-		<img src={require('../img/Archemy_TM.png')}/><h3 className="nav-title">Active Business Solutions Network Workbench Client</h3>
+		<img src={require('../img/Archemy_TM.png')}/><h3 className="nav-title">Active Business Solutions Network Workbench</h3>
 	  </div>
     </div>
   </nav>

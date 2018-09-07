@@ -14,13 +14,33 @@ export default () => (
 		  EA Mgmt. Toolkit
         </div>
       </MappleToolTip>
-	  <button className="button" type="button">EA Mgmt. Toolkit</button>
-      <button className="button" type="button">Knowledge & Search Tool </button>
-      <button className="button" type="button">Steps Documentation Tool </button>
-      <button className="button" type="button">Visualization Tool</button>
+	  <MappleToolTip mappleType={'info'} shadow={true}>
+        <div>
+		  <button className="button" type="button">ArchNav</button>
+        </div>
+        <div>
+		  Knowledge & Search Tool
+        </div>
+      </MappleToolTip>
+	  <MappleToolTip mappleType={'info'} shadow={true}>
+        <div>
+		  <button className="button" type="button">ArchDoc</button>
+        </div>
+        <div>
+		  Steps Documentation Tool
+        </div>
+      </MappleToolTip>	  
+	  <MappleToolTip mappleType={'info'} shadow={true}>
+        <div>
+		  <button className="button" type="button">ArchViz</button>
+        </div>
+        <div>
+		  Visualization Tool
+        </div>
+      </MappleToolTip>      
       <button className="button" type="button">Utilities</button>
       <button className="button" type="button">Workbench Blog</button>
-      <button className="button" type="button">Planet EPA</button>
+      <button className="button" type="button">Planet Archemy</button>
       <button className="button" type="button">Workbench Forum</button>
     </div>
   </aside>  
