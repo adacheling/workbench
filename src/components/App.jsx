@@ -46,7 +46,8 @@ class App extends React.Component {
             <main className="column">
               <Switch>
                 <Route exact path="/" component={Login} />
-                <Route exact path="/solution/workspace" component={WorkSpace} />
+                <Route exact path="/solution" component={Solution} />
+				<Rout exact path="/solution/workspace" component={WorkSpace} />
                 <Route
                   path="/solution/build"
                   render={props => (
