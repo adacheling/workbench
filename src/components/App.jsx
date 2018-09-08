@@ -12,6 +12,7 @@ import Search    from './Search';
 import TabsBuild from './TabsBuild';
 import Elicit    from './Elicit';
 import Discover  from './Discover';
+import DiscoverReview from './DiscoverReview';
 import Reuse     from './Reuse';
 import Adapt     from './Adapt';
 import Deploy     from './Deploy';
