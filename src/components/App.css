@@ -204,6 +204,10 @@ body, span, div, table, tr, tbody, tfoot, td, hr {
     -webkit-print-color-adjust: exact;
 }
 
+.text-center {
+  text-align: center !important;
+}
+
 .mymargin {
   margin: 20px;
 /*

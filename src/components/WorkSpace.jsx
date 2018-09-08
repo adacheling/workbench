@@ -49,7 +49,7 @@ export default () => (
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td><h6 className="title">Business Solution Architectures</h6></td>
+								<td colspan="2"><h6 className="title">Business Solution Architectures</h6></td>
 								<td>
 									<div className="field-body">
 										<div className="field">
