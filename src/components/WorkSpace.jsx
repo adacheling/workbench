@@ -12,12 +12,12 @@ export default () => (
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td><h3 className="title">Business Solution Connections</h3></td>
+								<td><h3>Business Solution Connections</h3></td>
 								<td>
 									<div className="field-body">
 										<div className="field">
 											<p className="control">
-												<input className="input" type="text" value="e.g., LymphMeter" />
+												<input className="input" type="text" color="#ede8e8" value="e.g., LymphMeter" />
 											</p>
 										</div>
 									</div>
@@ -34,7 +34,11 @@ export default () => (
 								<td><button type="button" className="button">LymphMeter™ v1.3</button></td>
 							</tr>
 							<tr>
-								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td>
+									<div class="text-center">
+										<font color="#c60b21">Ready</font>
+									</div>
+								</td>
 								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
 								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
 							</tr>
@@ -45,7 +49,7 @@ export default () => (
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td><h3 className="title">Business Solution Architectures</h3></td>
+								<td><h4 className="title">Business Solution Architectures</h4></td>
 								<td>
 									<div className="field-body">
 										<div className="field">
