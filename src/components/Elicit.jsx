@@ -18,7 +18,6 @@ export default () => (
     this.setState({selectedCompany: e.target.value})
   },
   <form className="box">
-    let company = this.state.companies.filter(company => {return company.name === this.state.selectedCompany})
     <div>
       jobs
       <select>
