@@ -12,12 +12,12 @@ export default () => (
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td><h2 className="title">Business Solution Connections</h2></td>
+								<td><h3 className="title">Business Solution Connections</h3></td>
 								<td>
 									<div className="field-body">
 										<div className="field">
 											<p className="control">
-												<input className="input is-static" type="text" value="Candidate Solution-1 (90% match)" readOnly />
+												<input className="input" type="text" value="e.g., LymphMeter" />
 											</p>
 										</div>
 									</div>
@@ -34,9 +34,9 @@ export default () => (
 								<td><button type="button" className="button">LymphMeter™ v1.3</button></td>
 							</tr>
 							<tr>
-								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
-								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
-								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
 							</tr>
 						</tbody>
 					</table>
@@ -45,12 +45,12 @@ export default () => (
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td><h2 className="title">Business Solution Architectures</h2></td>
+								<td><h3 className="title">Business Solution Architectures</h3></td>
 								<td>
 									<div className="field-body">
 										<div className="field">
 											<p className="control">
-												<input className="input is-static" type="text" value="Candidate Solution-1 (90% match)" readOnly />
+												<input className="input" type="text" value="e.g., 2.0" />
 											</p>
 										</div>
 									</div>
@@ -68,10 +68,10 @@ export default () => (
 								<td><button type="button" className="button">LymphMeter™ v1.3</button></td>
 							</tr>
 							<tr>
-								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
-								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
-								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
-								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
 							</tr>
 						</tbody>
 					</table>
