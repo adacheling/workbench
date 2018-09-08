@@ -80,7 +80,7 @@ export default () => (
         <Link to="/solution/build/discover" type="button" className="button">Back</Link>
       </div>
       <div className="control">
-        <Link to="/solution/build/deploy" type="button" className="button">Reuse</Link>
+        <Link to="/solution/build/adapt" type="button" className="button">Reuse</Link>
       </div>
     </section>
   </form>

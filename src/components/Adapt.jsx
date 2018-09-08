@@ -37,7 +37,7 @@ export default () => (
       </div>
       <div className="field is-horizontal">
         <div className="field-label is-normal">
-          <label className="label" style={style}>Enter target solution name: </label>
+          <label className="label" style={style}>Target solution name: </label>
         </div>
         <div className="field-body">
           <div className="field">
@@ -50,7 +50,7 @@ export default () => (
 
       <div className="field is-horizontal">
         <div className="field-label is-normal">
-          <label className="label" style={style}>Enter target solution version: </label>
+          <label className="label" style={style}>Target solution version: </label>
         </div>
         <div className="field-body">
           <div className="field">
