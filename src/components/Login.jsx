@@ -88,7 +88,7 @@ export default class Login extends React.Component {
                   </div>
                   <div className="field">
                     <p className="control has-text-right">
-                      <input className="button is-info is-medium max-d is-right" type="submit" value="Log in" />
+                      <input className="button is-info is-medium max-d is-right" type="submit" value="Login" />
                     </p>
                   </div>
                 </form>
