@@ -25,7 +25,6 @@ const build = [
       { Elicit: '/solution/build/elicit' },
       { Search: '/solution/build/search' },
       { Discover: '/solution/build/discover' },
-	  { DiscoverReview: '/solution/build/discoverreview' },
       { Reuse: '/solution/build/reuse' },
       { Adapt: '/solution/build/adapt' },
       { Deploy: '/solution/build/deploy' },
