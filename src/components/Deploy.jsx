@@ -10,9 +10,9 @@ export default () => (
     <h4 className="subtitle is-4">Select business solution to deploy:</h4>
     <div className="select">
       <select>
-        <option>imp-rmp – 6/01/18 – P1</option>
-        <option>imp-rmp – 6/01/18 – LymphMeter™</option>
-        <option>imp-rmp – 6/01/18 – P3</option>
+        <option>LymphMeter™ v1.0</option>
+        <option>LymphMeter™ v1.1</option>
+        <option>LymphMeter™ v2.0</option>
       </select>
     </div>
     <section className="section field is-grouped">
