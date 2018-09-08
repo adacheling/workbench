@@ -7,8 +7,6 @@ const style = {
 
 export default () => (
   <form className="box">
-
-    <h4 className="subtitle is-4">Select Candidate Reusable Solution:</h4>
     <section className="section">
       <div className="field is-horizontal">
         <div className="field-label is-normal">
@@ -68,7 +66,7 @@ export default () => (
 
     <section className="section field is-grouped">
       <div className="control">
-        <Link to="/solution/build/search" type="button" className="button">Back</Link>
+        <Link to="/solution/build/discover" type="button" className="button">Back</Link>
       </div>
       <div className="control">
         <Link to="/solution/build/discover/review" type="button" className="button">Review</Link>

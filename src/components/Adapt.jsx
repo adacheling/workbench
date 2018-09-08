@@ -95,7 +95,7 @@ export default () => (
         <a href="#" type="button" className="button">Adapt</a>
       </div>
       <div className="control">
-        <Link to="/solution/build/adapt" type="button" className="button">Next</Link>
+        <Link to="/solution/build/deploy" type="button" className="button">Next</Link>
       </div>
     </section>
   </form>
