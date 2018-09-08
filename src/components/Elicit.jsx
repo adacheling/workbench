@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default () => (
   <form className="box">
-    <p className="subtitle is-4">Select Strategic Roadmap:</p>
+    <p className="subtitle is-4">Select strategic roadmap:</p>
     <div className="select">
       <select>
         <option>stg-rmp – 1/10/17</option>

@@ -22,7 +22,6 @@ export default () => (
           </div>
         </div>
       </div>
-
       <div className="field is-horizontal">
         <div className="field-label is-normal">
           <label className="label" style={style}>Candidate solution reused: </label>

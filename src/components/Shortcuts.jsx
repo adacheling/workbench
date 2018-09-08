@@ -8,7 +8,7 @@ export default () => (
     <div className="btn-group">
       <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
-		  <button className="button" type="button">EAMTk</button>
+		  <button className="button" type="button">EAMTk™</button>
         </div>
         <div>
 		  EA Mgmt. Toolkit
@@ -16,7 +16,7 @@ export default () => (
       </MappleToolTip>
 	  <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
-		  <button className="button" type="button">ArchNav</button>
+		  <button className="button" type="button">ArchNav™</button>
         </div>
         <div>
 		  Knowledge & Search Tool
@@ -24,7 +24,7 @@ export default () => (
       </MappleToolTip>
 	  <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
-		  <button className="button" type="button">ArchDoc</button>
+		  <button className="button" type="button">ArchDoc™</button>
         </div>
         <div>
 		  Steps Documentation Tool
@@ -32,7 +32,7 @@ export default () => (
       </MappleToolTip>
 	  <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
-		  <button className="button" type="button">ArchViz</button>
+		  <button className="button" type="button">ArchViz™</button>
         </div>
         <div>
 		  Visualization Tool

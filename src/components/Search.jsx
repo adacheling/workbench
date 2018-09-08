@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default props => (
   <form className="box">
-    <h4 className="subtitle is-4">Select Candidate Reusable Solution:</h4>
+    <h4 className="subtitle is-4">Search for candidate solution that matches a component/project:</h4>
     <div className="select">
       <select>
         <option>imp-rmp – 6/01/18 – P1</option>
