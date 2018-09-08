@@ -5,7 +5,7 @@ import './App.css';
 export default () => (
   <aside className="section">
     <h4 className="is-size-4">Shortcuts</h4>
-    <div className="buttons">
+    <div className="btn-group">
       <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
 		  <button className="button" type="button">EAMTk</button>
