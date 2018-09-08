@@ -12,7 +12,7 @@ export default () => (
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td><h1>Business Solution Connections</h1></td>
+								<td colspan="3"><h6 className="title">Business Solution Connections</h6></td>
 								<td>
 									<div className="field-body">
 										<div className="field">
@@ -49,7 +49,7 @@ export default () => (
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
-								<td colspan="2"><h6 className="title">Business Solution Architectures</h6></td>
+								<td colspan="3"><h6 className="title">Business Solution Architectures</h6></td>
 								<td>
 									<div className="field-body">
 										<div className="field">
