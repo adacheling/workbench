@@ -44,7 +44,7 @@ export default () => (
         <div className="field-body">
           <div className="field">
             <p className="control">
-              <input className="input" type="text" value="e.g., LymphMeter" />
+              <input className="input" type="text" placeholder="e.g., LymphMeter" />
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ export default () => (
         <div className="field-body">
           <div className="field">
             <p className="control">
-              <input className="input is-small" type="text" value="e.g., 2.0" />
+              <input className="input is-small" type="text" placeholder="e.g., 2.0" />
             </p>
           </div>
         </div>
