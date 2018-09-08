@@ -8,7 +8,7 @@ export default () => (
     <div className="buttons">
       <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
-		  <button className="btn btn-primary" type="button">EAMTk</button>
+		  <button className="button" type="button">EAMTk</button>
         </div>
         <div>
 		  EA Mgmt. Toolkit
@@ -17,7 +17,7 @@ export default () => (
 	  <br/>
 	  <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
-		  <button className="btn btn-primary" type="button">ArchNav</button>
+		  <button className="button" type="button">ArchNav</button>
         </div>
         <div>
 		  Knowledge & Search Tool
@@ -26,7 +26,7 @@ export default () => (
 	  <br/>
 	  <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
-		  <button className="btn btn-primary" type="button">ArchDoc</button>
+		  <button className="button" type="button">ArchDoc</button>
         </div>
         <div>
 		  Steps Documentation Tool
@@ -35,17 +35,17 @@ export default () => (
 	  <br/>
 	  <MappleToolTip mappleType={'info'} shadow={true}>
         <div>
-		  <button className="btn btn-primary" type="button">ArchViz</button>
+		  <button className="button" type="button">ArchViz</button>
         </div>
         <div>
 		  Visualization Tool
         </div>
       </MappleToolTip>
 	  <br/>
-      <button className="btn btn-primary" type="button">Utilities</button><br/>
-      <button className="btn btn-primary" type="button">Workbench Blog</button><br/>
-      <button className="btn btn-primary" type="button">Planet Archemy</button><br/>
-      <button className="btn btn-primary" type="button">Workbench Forum</button><br/>
+      <button className="button" type="button">Utilities</button><br/>
+      <button className="button" type="button">Workbench Blog</button><br/>
+      <button className="button" type="button">Planet Archemy</button><br/>
+      <button className="button" type="button">Workbench Forum</button><br/>
     </div>
   </aside>  
 );
