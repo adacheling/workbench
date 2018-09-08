@@ -58,6 +58,7 @@ const visualize = [
 module.exports = (key) => {
   switch (key) {
 	case 'solution':
+	case 'solution/workspace':
     case '/solution/build':
     case '/solution/build/search':
     case '/solution/build/elicit':

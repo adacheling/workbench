@@ -8,6 +8,7 @@ import Login     from './Login';
 import Nav       from './Nav';
 import Shortcuts from './Shortcuts';
 import Solution  from './Solution';
+import WorkSpace from './WorkSpace';
 import Search    from './Search';
 import TabsBuild from './TabsBuild';
 import Elicit    from './Elicit';
@@ -45,7 +46,7 @@ class App extends React.Component {
             <main className="column">
               <Switch>
                 <Route exact path="/" component={Login} />
-                <Route exact path="/solution" component={Solution} />
+                <Route exact path="/solution/workspace" component={WorkSpace} />
                 <Route
                   path="/solution/build"
                   render={props => (
