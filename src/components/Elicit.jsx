@@ -10,7 +10,7 @@ export default () => (
         <option>stg-rmp – 1/10/18</option>
       </select>
     </div>
-
+   <br/><br/>
     <p className="subtitle is-4">Select implementation roadmap:</p>
     <div className="select is-multiple">
       <select multiple size="4">
