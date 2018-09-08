@@ -1,5 +1,6 @@
 import React  from 'react';
 import { Link } from 'react-router-dom';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 export default () => (
   <form className="box">
@@ -7,7 +8,23 @@ export default () => (
 		<div className="columns">
 			<div className="column">
 				<section className="section">
-					<h2 className="title">Business Solution Connections</h2>
+					<table class="table table-borderless">
+						<tbody>
+							<tr>
+								<td><h2 className="title">Business Solution Connections</h2></td>
+								<td>
+									<div className="field-body">
+										<div className="field">
+											<p className="control">
+												<input className="input is-static" type="text" value="Candidate Solution-1 (90% match)" readOnly />
+											</p>
+										</div>
+									</div>
+								</td>
+								<td><FontAwesomeIcon icon={faSearch} size="2x" /></td>
+							</tr>
+						</tbody>
+					</table>
 					<table class="table table-borderless">
 						<tbody>
 							<tr>
@@ -16,19 +33,47 @@ export default () => (
 								<td><button type="button" className="button">LymphMeter™ v1.3</button></td>
 							</tr>
 							<tr>
-								<td><font color="#c60b21">Ready</font></td>
-								<td><font color="#c60b21">Ready</font></td>
-								<td><font color="#c60b21">Ready</font></td>
+								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
 							</tr>
 						</tbody>
 					</table>
 				</section>
 				<section className="section">
-					<h2 className="title">Business Solution Architectures</h2>
-					<button type="button" className="button">LymphMeter™ v1.0</button>
-					<button type="button" className="button">LymphMeter™ v1.1</button>
-					<button type="button" className="button">LymphMeter™ v1.2</button>
-					<button type="button" className="button">LymphMeter™ v1.3</button>
+					<table class="table table-borderless">
+						<tbody>
+							<tr>
+								<td><h2 className="title">Business Solution Architectures</h2></td>
+								<td>
+									<div className="field-body">
+										<div className="field">
+											<p className="control">
+												<input className="input is-static" type="text" value="Candidate Solution-1 (90% match)" readOnly />
+											</p>
+										</div>
+									</div>
+								</td>
+								<td><FontAwesomeIcon icon={faSearch} size="2x" /></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table table-borderless">
+						<tbody>
+							<tr>
+								<td><button type="button" className="button">LymphMeter™ v1.0</button></td>
+								<td><button type="button" className="button">LymphMeter™ v1.1</button></td>
+								<td><button type="button" className="button">LymphMeter™ v1.2</button></td>
+								<td><button type="button" className="button">LymphMeter™ v1.3</button></td>
+							</tr>
+							<tr>
+								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+								<td><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+							</tr>
+						</tbody>
+					</table>
 				</section>
 			</div>
 		</div>
