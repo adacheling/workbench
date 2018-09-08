@@ -5,9 +5,6 @@ export default () => (
   <form className="box">
 	<div className="container is-fluid">
 		<div className="columns">
-			<div className="column is-two-thirds">
-				<Search />
-			</div>
 			<div className="column">
 				<section className="section">
 					<h2 className="title">Business Solution Connections</h2>
