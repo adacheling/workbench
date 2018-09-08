@@ -18,26 +18,37 @@ export default () => (
     this.setState({selectedCompany: e.target.value})
   },
   <form className="box">
-    <div>
-      jobs
-      <select>
-        {
-          
-          company[0].jobs.map((job, i) => {
-            return <option>{job}</option>
-          })
-        }
-      </select>
-      
-      companies
-      <select value={this.state.selectedCompany} onChange={this.handleChange.bind(this)}>
-        {
-          this.state.companies.map((company, i) => {
-            return <option>{company.name}</option>
-          })
-        }
-      </select>
-    </div>
+    
+	
+	
+	
+  render() {
+    let company = this.state.companies.filter(company => {
+              return company.name === this.state.selectedCompany
+            })
+    return (
+      <div>
+        jobs
+        <select>
+          {
+            
+            company[0].jobs.map((job, i) => {
+              return <option>{job}</option>
+            })
+          }
+        </select>
+        
+        companies
+        <select value={this.state.selectedCompany} onChange={this.handleChange.bind(this)}>
+          {
+            this.state.companies.map((company, i) => {
+              return <option>{company.name}</option>
+            })
+          }
+        </select>
+        </div>
+    )
+  }
  
   
   
