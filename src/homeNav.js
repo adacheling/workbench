@@ -62,6 +62,7 @@ module.exports = (key) => {
     case '/solution/build/search':
     case '/solution/build/elicit':
     case '/solution/build/discover':
+	case '/solution/build/discoverreview':
     case '/solution/build/reuse':
     case '/solution/build/adapt':
     case '/solution/build/deploy':
