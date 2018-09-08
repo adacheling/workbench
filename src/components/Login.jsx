@@ -27,7 +27,7 @@ export default class Login extends React.Component {
     event.preventDefault();
     event.stopPropagation();
     const { history } = this.props;
-    history.push('/solution');
+    history.push('/solution/workspace');
     return false;
   }
 
