@@ -30,7 +30,6 @@ export default () => (
 				</tr>
 				<tr>
 					<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
-					<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
 				</tr>
 			</tbody>
 		</table>

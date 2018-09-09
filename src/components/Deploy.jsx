@@ -23,7 +23,7 @@ export default () => (
         <Link to="/solution/build/reuse" type="button" className="button">Back</Link>
       </div>
       <div className="control">
-        <a href="#" type="button" className="button">Deploy</a>
+		<Link to="/solution/operate" type="button" className="button">Deploy</Link>
       </div>
     </section>
   </form>
