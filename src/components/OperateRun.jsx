@@ -27,10 +27,11 @@ export default () => (
 			<tbody>
 				<tr>
 					<td><button type="button" className="button">LymphMeter™ v1.1</button></td>
+					<td><button type="button" className="button">LymphMeter™ v2.0</button></td>
 				</tr>
 				<tr>
 					<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
-					<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
+					<td class="text-center"><p class="text-sm-center"><font color="#c60b21"><b>Running</b></font></p></td>
 				</tr>
 			</tbody>
 		</table>
@@ -58,6 +59,7 @@ export default () => (
 				<tr>
 					<td><button type="button" className="button">LymphMeter™ v1.0</button></td>
 					<td><button type="button" className="button">LymphMeter™ v1.1</button></td>
+					<td><button type="button" className="button">LymphMeter™ v2.0</button></td>
 				</tr>
 			</tbody>
 		</table>

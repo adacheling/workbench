@@ -17,6 +17,8 @@ import DiscoverReview from './DiscoverReview';
 import Reuse     from './Reuse';
 import Adapt     from './Adapt';
 import Deploy     from './Deploy';
+import Operate from './Operate';
+import OperateRun from './OperateRun';
 import navSwitch from '../homeNav';
 import Footer    from './Footer';
 import './App.css';
@@ -66,7 +68,8 @@ class App extends React.Component {
                     </span>
                   )}
                 />
-				<Route exact path="/solution/operate" component={Solution} />
+				<Route exact path="/solution/operate" component={Operate} />
+				<Route exact path="/solution/operate/operaterun" component={OperateRun} />
 				<Route exact path="/solution/visualize" component={Solution} />
               </Switch>
             </main>
