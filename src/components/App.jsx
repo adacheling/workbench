@@ -69,7 +69,7 @@ class App extends React.Component {
                   )}
                 />
 				<Route exact path="/solution/operate" component={Operate} />
-				<Route exact path="/solution/operate/operaterun" component={OperateRun} />
+				<Route exact path="/solution/operaterun" component={OperateRun} />
 				<Route exact path="/solution/visualize" component={Solution} />
               </Switch>
             </main>
