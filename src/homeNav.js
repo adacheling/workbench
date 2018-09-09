@@ -7,7 +7,7 @@ const home = [
     Solution: [
       { Build: '/solution/build' },
       { Operate: '/solution/operate' },
-      { Visualize: '/solution/visualize' },
+      { Visualize: '/solution/visoperate' },
     ],
   },
   { Metrics: '' },

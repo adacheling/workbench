@@ -7,7 +7,7 @@ export default () => (
 		<table class="table table-borderless">
 			<tbody>
 				<tr>
-					<td colspan="4"><h6><font color="#c60b21">LymphMeter™ v2.0</font></h6></td>
+					<td colspan="4"><h6 className="title">LymphMeter™ v2.0</h6></td>
 				</tr>
 			</tbody>
 		</table>
