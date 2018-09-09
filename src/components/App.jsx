@@ -19,6 +19,8 @@ import Adapt     from './Adapt';
 import Deploy     from './Deploy';
 import Operate from './Operate';
 import OperateRun from './OperateRun';
+import VisOperate from './VisOperate';
+import Visualize from './Visualize';
 import navSwitch from '../homeNav';
 import Footer    from './Footer';
 import './App.css';
@@ -81,7 +83,8 @@ class App extends React.Component {
 					)}
 				/>
 				<Route exact path="/solution/operaterun" component={OperateRun} />
-				<Route exact path="/solution/visualize" component={Solution} />
+				<Route exact path="/solution/visoperate" component={VisOperate} />
+				<Route exact path="/solution/visualize" component={Visualize} />
               </Switch>
             </main>
             <aside className="column is-one-quarter">

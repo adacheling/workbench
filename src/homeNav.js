@@ -69,6 +69,7 @@ module.exports = (key) => {
     case '/solution/build/deploy':
 	case '/solution/operate':
 	case '/solution/operaterun':
+	case 'solution/visoperate':
 	case 'solution/visualize':
       return build;
 
