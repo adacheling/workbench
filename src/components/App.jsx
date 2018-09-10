@@ -54,7 +54,7 @@ class App extends React.Component {
                 <Route exact path="/solution" component={Solution} />
 				<Route exact path="/solution/workspace" component={WorkSpace} />
                 <Route
-                  path="/solution/build"
+                  path="/solution/build" component={WorkSpace}
                   render={props => (
                     <span>
                       <TabsBuild
