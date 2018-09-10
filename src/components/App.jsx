@@ -51,6 +51,7 @@ class App extends React.Component {
               <Switch>
                 <Route exact path="/" component={Login} />
                 <Route exact path="/solution" component={Solution} />
+				<Route exact path="/solution/workspace" component={WorkSpace} />
                 <Route
                   path="/solution/build"
                   render={props => (
@@ -62,6 +63,7 @@ class App extends React.Component {
                       <Route exact path="/solution/build/elicit" component={Elicit} />
                       <Route exact path="/solution/build/search" component={Search} />
                       <Route exact path="/solution/build/discover" component={Discover} />
+					   <Route exact path="/solution/build/discoverreview" component={DiscoverReview} />
                       <Route exact path="/solution/build/reuse" component={Reuse} />
                       <Route exact path="/solution/build/adapt" component={Adapt} />
                       <Route exact path="/solution/build/deploy" component={Deploy} />
