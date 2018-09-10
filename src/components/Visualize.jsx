@@ -27,7 +27,7 @@ export default () => (
 			<tbody>
 				<tr>
 					<td><button type="button" className="button">LymphMeter™ v1.1</button></td>
-					<td><Link to="/solution/visualize" type="button" className="button">LymphMeter™ v2.0</Link></td>
+					<td><Link to="/solution/visreview" type="button" className="button">LymphMeter™ v2.0</Link></td>
 				</tr>
 				<tr>
 					<td class="text-center"><p class="text-sm-center"><font color="#c60b21">Ready</font></p></td>
