@@ -7,7 +7,7 @@ const home = [
     Solution: [
       { Build: '/solution/build' },
       { Operate: '/solution/operate' },
-      { Visualize: '/solution/visoperate' },
+      { Visualize: '/solution/visualize' },
     ],
   },
   { Metrics: '' },
@@ -69,8 +69,8 @@ module.exports = (key) => {
     case '/solution/build/deploy':
 	case '/solution/operate':
 	case '/solution/operaterun':
-	case 'solution/visoperate':
 	case 'solution/visualize':
+	case 'solution/visreview':
       return build;
 
     default:

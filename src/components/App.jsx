@@ -19,8 +19,8 @@ import Adapt          from './Adapt';
 import Deploy         from './Deploy';
 import Operate        from './Operate';
 import OperateRun     from './OperateRun';
-import VisOperate     from './VisOperate';
-import Visualize      from './Visualize';
+import VisOperate     from './Visualize';
+import Visualize      from './VisReview';
 import navSwitch      from '../homeNav';
 import Footer         from './Footer';
 import './App.css';
@@ -84,18 +84,18 @@ class App extends React.Component {
 				/>
 				<Route exact path="/solution/operaterun" component={OperateRun} />
 				<Route
-					path="/solution/visoperate"
+					path="/solution/visualize"
 					render={props => (
 						<span>
 							<TabsBuild
 								nav={navSwitch(props.location.pathname)}
 								path={props.location.pathname}
 							/>
-							<Route exact path="/solution/visoperate" component={VisOperate} />
+							<Route exact path="/solution/visualize" component={Visualize} />
 						</span>
 					)}
 				/>
-				<Route exact path="/solution/visualize" component={Visualize} />
+				<Route exact path="/solution/visreview" component={VisReview} />
               </Switch>
             </main>
             <aside className="column is-one-quarter">
