@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function handleChange(e) {
-  console.log(this.state)
   this.setState({selectedCompany: e.target.value})
 },
 
