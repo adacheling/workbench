@@ -26,13 +26,9 @@ export default ({ nav, path }) => {
       <ul>
         {buildNav(Build, path)}
       </ul>
-    </div>
-    <div className="tabs">
       <ul>
         {buildNav(Operate, path)}
       </ul>
-    </div>
-    <div className="tabs">
       <ul>
         {buildNav(Visualize, path)}
       </ul>
