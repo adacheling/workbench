@@ -18,6 +18,7 @@ import Deploy     from './Deploy';
 import navSwitch from '../homeNav';
 
 import WorkSpace from './WorkSpace';
+import DiscoverReview from './DiscoverReview';
 import Operate from './Operate';
 import OperateRun from './OperateRun';
 import Visualize from './Visualize';
