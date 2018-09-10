@@ -20,8 +20,6 @@ function buildNav(nav, path) {
 
 export default ({ nav, path }) => {
   const { Build } = nav.find(obj => ('Build' in obj));
-  const { Operate } = nav.find(obj => ('Operate' in obj));
-  const { Visualize } = nav.find(obj => ('Visualize' in obj));
 
   return (
     <div className="tabs">
