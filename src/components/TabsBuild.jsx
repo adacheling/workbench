@@ -28,12 +28,6 @@ export default ({ nav, path }) => {
       <ul>
         {buildNav(Build, path)}
       </ul>
-      <ul>
-        {buildNav(Operate, path)}
-      </ul>
-      <ul>
-        {buildNav(Visualize, path)}
-      </ul>
     </div>
   );
 };

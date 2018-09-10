@@ -83,7 +83,18 @@ class App extends React.Component {
 					)}
 				/>
 				<Route exact path="/solution/operaterun" component={OperateRun} />
-				<Route exact path="/solution/visoperate" component={VisOperate} />
+				<Route
+					path="/solution/visoperate"
+					render={props => (
+						<span>
+							<TabsBuild
+								nav={navSwitch(props.location.pathname)}
+								path={props.location.pathname}
+							/>
+							<Route exact path="/solution/visoperate" component={VisOperate} />
+						</span>
+					)}
+				/>
 				<Route exact path="/solution/visualize" component={Visualize} />
               </Switch>
             </main>
