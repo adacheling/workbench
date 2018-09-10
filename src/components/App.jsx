@@ -1,28 +1,28 @@
 /* eslint-env browser */
-import React            from 'react';
-import { hot }          from 'react-hot-loader';
+import React             from 'react';
+import { hot }           from 'react-hot-loader';
 import { Switch, Route } from 'react-router-dom';
 
-import GlobalNav from './GlobalNav';
-import Login     from './Login';
-import Nav       from './Nav';
-import Shortcuts from './Shortcuts';
-import Solution  from './Solution';
-import WorkSpace from './WorkSpace';
-import Search    from './Search';
-import TabsBuild from './TabsBuild';
-import Elicit    from './Elicit';
-import Discover  from './Discover';
+import GlobalNav      from './GlobalNav';
+import Login          from './Login';
+import Nav            from './Nav';
+import Shortcuts      from './Shortcuts';
+import Solution       from './Solution';
+import WorkSpace      from './WorkSpace';
+import Search         from './Search';
+import TabsBuild      from './TabsBuild';
+import Elicit         from './Elicit';
+import Discover       from './Discover';
 import DiscoverReview from './DiscoverReview';
-import Reuse     from './Reuse';
-import Adapt     from './Adapt';
-import Deploy     from './Deploy';
-import Operate from './Operate';
-import OperateRun from './OperateRun';
-import VisOperate from './VisOperate';
-import Visualize from './Visualize';
-import navSwitch from '../homeNav';
-import Footer    from './Footer';
+import Reuse          from './Reuse';
+import Adapt          from './Adapt';
+import Deploy         from './Deploy';
+import Operate        from './Operate';
+import OperateRun     from './OperateRun';
+import VisOperate     from './VisOperate';
+import Visualize      from './Visualize';
+import navSwitch      from '../homeNav';
+import Footer         from './Footer';
 import './App.css';
 
 

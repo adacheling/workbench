@@ -27,5 +27,15 @@ export default ({ nav, path }) => {
         {buildNav(Build, path)}
       </ul>
     </div>
+    <div className="tabs">
+      <ul>
+        {buildNav(Operate, path)}
+      </ul>
+    </div>
+    <div className="tabs">
+      <ul>
+        {buildNav(Visualize, path)}
+      </ul>
+    </div>
   );
 };
