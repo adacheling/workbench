@@ -7,7 +7,7 @@ export default () => (
    this.state = {
      name: 'React',
      selectedOption: {},
-     selectedOption2: {}
+     selectedOption2: {},
    };
 
   handleChange1 = (selectedOption) => {
