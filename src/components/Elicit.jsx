@@ -1,5 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+function handleChange(e) {
+  this.setState({selectedCompany: e.target.value})
+}
+
+export default () => (
+
     this.state = {
       companies: '',
     };
@@ -13,12 +20,6 @@ import { Link } from 'react-router-dom';
 	let company = this.state.companies.filter(company => {
               return company.name === this.state.selectedCompany
             })
-
-function handleChange(e) {
-  this.setState({selectedCompany: e.target.value})
-}
-
-export default () => (
 
   <form className="box">
     <p className="subtitle is-4">Select strategic roadmap:</p>
