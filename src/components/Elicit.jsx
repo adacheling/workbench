@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+    this.state = {
+      companies: '',
+    };
     companies:[
       { name: 'company1', jobs: ['job1-1', 'job1-2', 'job1-3']},
       { name: 'company2', jobs: ['job2-1', 'job2-2', 'job2-3']},
