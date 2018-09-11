@@ -8,11 +8,11 @@ export default () => (
      name: 'React',
      selectedOption: {},
      selectedOption2: {},
-   };
+   }
 
   handleChange1 = (selectedOption) => {
     this.setState({selectedOption});
-  };
+  }
 
   handleChange2 = (selectedOption) => {
     this.setState({selectedOption2: selectedOption})
