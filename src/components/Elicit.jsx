@@ -9,12 +9,12 @@ export default () => (
 
     this.state = {
       companies: '',
-    };
+    },
     companies:[
       { name: 'company1', jobs: ['job1-1', 'job1-2', 'job1-3']},
       { name: 'company2', jobs: ['job2-1', 'job2-2', 'job2-3']},
       { name: 'company3', jobs: ['job3-1', 'job3-2', 'job3-3']}
-    ];
+    ],
     selectedCompany: 'company1'
 	
 	let company = this.state.companies.filter(company => {
