@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Select from 'react-select'
 
+export default () => (
+
    this.state = {
      name: 'React',
      selectedOption: {},
@@ -15,8 +17,6 @@ import Select from 'react-select'
   handleChange2 = (selectedOption) => {
     this.setState({selectedOption2: selectedOption})
   }
-
-export default () => (
 
     const options1 = [
       {value: 'one', label: 'One'},
