@@ -14,7 +14,7 @@ export default () => (
     ],
     selectedCompany: 'company1'
 	
-	let company = this.state.companies.filter(company => {
+	company = this.state.companies.filter(company => {
               return company.name === this.state.selectedCompany
             })
 
