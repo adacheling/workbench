@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function handleChange(e) {
   this.setState({selectedCompany: e.target.value})
-},
+}
 
 export default () => (
 
