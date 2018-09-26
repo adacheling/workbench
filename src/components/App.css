@@ -492,10 +492,12 @@ a:focus {
     color: #e6be8a;
 }
 
-  .navbar-link {
+.navbar-link {
     color: #e6be8a;
     &:hover {
-      color: #a17a48; }}}
+      color: #a17a48; 
+	}
+}
 
 /* Primary Buttons */
 .btn-primary {
