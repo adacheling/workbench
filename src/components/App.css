@@ -488,7 +488,7 @@ a:focus {
 } */
 
 
-.nav .navbar-nav .navbar-left .navbar-right > li > a {
+.nav .navbar-nav .navbar-left .navbar-right .navbar-item > li > a {
     color: #e6be8a;
 }
 
