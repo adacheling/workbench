@@ -488,8 +488,15 @@ a:focus {
 } */
 
 
-.nav .navbar-nav .navbar-left .navbar-right .navbar-item > li > a {
+.nav .navbar-nav .navbar-left .navbar-right > li > a {
     color: #e6be8a;
+}
+
+.navbar-item {
+    color: #e6be8a;
+    &:hover {
+      color: #a17a48; 
+	}
 }
 
 .navbar-link {
