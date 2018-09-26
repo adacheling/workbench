@@ -487,6 +487,11 @@ a:focus {
     color: blue;
 } */
 
+
+.nav .navbar-nav .navbar-left .navbar-right > li > a {
+    color: #e6be8a;
+}
+
 /* Primary Buttons */
 .btn-primary {
   color: rgba(230,190,138,0.8);
