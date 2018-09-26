@@ -492,6 +492,11 @@ a:focus {
     color: #e6be8a;
 }
 
+  .navbar-link {
+    color: #e6be8a;
+    &:hover {
+      color: #a17a48; }}}
+
 /* Primary Buttons */
 .btn-primary {
   color: rgba(230,190,138,0.8);
