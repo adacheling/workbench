@@ -81,10 +81,10 @@ class App extends React.Component {
             </main>
             <aside className="column is-one-quarter">
               <Shortcuts />
-			  <Footer />
             </aside>
           </article>
         </section>
+		<Footer />
       </main>
     );
   }
