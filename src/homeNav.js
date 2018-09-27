@@ -30,8 +30,8 @@ const build = [
       { Deploy: '/solution/build/deploy' },
     ],
   },
-  { Operate: '' },
-  { Visualize: '' },
+  { Operate: '/solution/operate' },
+  { Visualize: '/solution/visualize' },
   { Help: '' },
 ];
 
@@ -39,7 +39,7 @@ const operate = [
   { File: '' },
   { Edit: '' },
   { View: '' },
-  { Build: '' },
+  { Build: '/solution/build' },
   { Operate: '/solution/operate' },
   { Visualize: '' },
   { Help: '' },
@@ -49,7 +49,7 @@ const visualize = [
   { File: '' },
   { Edit: '' },
   { View: '' },
-  { Build: '' },
+  { Build: '/solution/build' },
   { Operate: '' },
   { Visualize: '/solution/visualize' },
   { Help: '' },
