@@ -73,20 +73,21 @@ class App extends React.Component {
                     </span>
                   )}
                 />
-			    <Route
+				
+                <Route
                   path="/solution/operate"
-				  render={props => (
-				    <span>
-					  <TabsOperate
-						nav={navSwitch(props.location.pathname)}
-						path={props.location.pathname}
+                  render={props => (
+                    <span>
+                      <TabsBuild
+                        nav={navSwitch(props.location.pathname)}
+                        path={props.location.pathname}
                       />
-				    </span>
-			      )}
-                />
-			   <Route exact path="/solution/operaterun" component={OperateRun} />
-			   <Route exact path="/solution/visualize" component={Visualize} />
-			   <Route exact path="/solution/visreview" component={VisReview} />
+                    </span>
+                  )}
+                />				
+				<Route exact path="/solution/operaterun" component={OperateRun} />
+			    <Route exact path="/solution/visualize" component={Visualize} />
+			    <Route exact path="/solution/visreview" component={VisReview} />
               </Switch>
             </main>
             <aside className="column is-one-quarter">
