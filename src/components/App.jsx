@@ -83,8 +83,8 @@ class App extends React.Component {
               <Shortcuts />
             </aside>
           </article>
+		  <Footer />
         </section>
-		<Footer />
       </main>
     );
   }
