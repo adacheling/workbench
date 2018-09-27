@@ -68,8 +68,10 @@ module.exports = (key) => {
     case '/solution/build/adapt':
     case '/solution/build/deploy':
 	case '/solution/operate':
+		return operate;
 	case '/solution/operaterun':
 	case 'solution/visualize':
+		return visualize;
 	case 'solution/visreview':
       return build;
 
