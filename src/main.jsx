@@ -4,8 +4,8 @@ import React    from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-//import './main.scss';
-import './components/App.css';
+import './main.scss';
+
 
 import App from './components/App';
 
