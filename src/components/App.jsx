@@ -49,8 +49,8 @@ class App extends React.Component {
           )}
         />
         <section className="container">
-		<div className="container">
           <article className="columns">
+		  <div className="container">
             <main className="column">
               <Switch>
                 <Route exact path="/" component={Login} />
@@ -80,11 +80,11 @@ class App extends React.Component {
 			    <Route exact path="/solution/visreview" component={VisReview} />
               </Switch>
             </main>
+		  </div>
             <aside className="column is-one-quarter">
               <Shortcuts />
             </aside>
           </article>
-		  </div>
 		  <Footer />
         </section>
       </main>
