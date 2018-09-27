@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './App.css';
 
 function buildNav(nav, path) {
   return nav.map((link) => {
