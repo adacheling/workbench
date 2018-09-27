@@ -71,7 +71,7 @@ module.exports = (key) => {
 	case '/solution/operaterun':
 	case 'solution/visualize':
 	case 'solution/visreview':
-      return operate;
+      return build;
 
     default:
       return home;
