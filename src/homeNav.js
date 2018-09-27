@@ -51,7 +51,7 @@ const visualize = [
   { View: '' },
   { Build: '' },
   { Operate: '' },
-  { Visualize: 'solution/visualize' },
+  { Visualize: '/solution/visualize' },
   { Help: '' },
 ];
 
@@ -78,9 +78,11 @@ module.exports = (key) => {
 	case '/solution/operate':
 	  return operate;
 	case '/solution/operaterun':
+	  return operate;
 	case 'solution/visualize':
 	  return visualize;
 	case 'solution/visreview':
+	  return visualize;
     default:
       return home;
   }
