@@ -11,7 +11,7 @@ export default () => (
        <div class="small-print">
             <div class="container">
                 <span class="pull-left">
-       	            <copyright>&copy; 2018 Archemy, Inc. or its affiliates</copyright>
+       	            <p><copyright>&copy; 2018 Archemy, Inc. or its affiliates</copyright></p>
                 </span>
             </div>
         </div>
