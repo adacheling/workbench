@@ -57,8 +57,8 @@ const visualize = [
 
 module.exports = (key) => {
   switch (key) {
-	case 'solution':
-	case 'solution/workspace':
+	case '/solution':
+	case '/solution/workspace':
     case '/solution/build':
 	  return build;
     case '/solution/build/search':
@@ -79,9 +79,9 @@ module.exports = (key) => {
 	  return operate;
 	case '/solution/operaterun':
 	  return operate;
-	case 'solution/visualize':
+	case '/solution/visualize':
 	  return visualize;
-	case 'solution/visreview':
+	case '/solution/visreview':
 	  return visualize;
     default:
       return home;
