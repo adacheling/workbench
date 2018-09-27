@@ -73,15 +73,6 @@ module.exports = (key) => {
 	case 'solution/visreview':
       return build;
 
-module.exports = (key) => {
-  switch (key) {
-	case 'solution':
-	case '/solution/operate':
-	case '/solution/operaterun':
-	case 'solution/visualize':
-	case 'solution/visreview':
-      return operate;
-
     default:
       return home;
   }
