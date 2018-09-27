@@ -49,7 +49,6 @@ class App extends React.Component {
           )}
         />
         <section className="container">
-		<div>
           <article className="columns">
             <main className="column">
               <Switch>
@@ -84,7 +83,6 @@ class App extends React.Component {
               <Shortcuts />
             </aside>
           </article>
-		  </div>
 		  <Footer />
         </section>
       </main>
