@@ -20,11 +20,11 @@ import navSwitch from '../homeNav';
 
 import WorkSpace from './WorkSpace';
 import DiscoverReview from './DiscoverReview';
-import TabsOperate from './TabsOperate';
 import Operate from './Operate';
 import OperateRun from './OperateRun';
 import Visualize from './Visualize';
 import VisReview from './VisReview';
+import Footer from './Footer';
 
 import './App.css';
 
@@ -81,6 +81,7 @@ class App extends React.Component {
             </main>
             <aside className="column is-one-quarter">
               <Shortcuts />
+			  <Footer />
             </aside>
           </article>
         </section>
