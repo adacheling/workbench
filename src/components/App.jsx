@@ -1,4 +1,5 @@
 /* eslint-env browser */
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React            from 'react';
 import { hot }          from 'react-hot-loader';
 import { Switch, Route } from 'react-router-dom';
