@@ -40,7 +40,7 @@ const operate = [
   { Edit: '' },
   { View: '' },
   { Build: '' },
-  { Operate: '' },
+  { Operate: '/solution/operate' },
   { Visualize: '' },
   { Help: '' },
 ];
@@ -51,7 +51,7 @@ const visualize = [
   { View: '' },
   { Build: '' },
   { Operate: '' },
-  { Visualize: '' },
+  { Visualize: 'solution/visualize' },
   { Help: '' },
 ];
 
