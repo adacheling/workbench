@@ -324,42 +324,6 @@ a:focus {
   font-weight:bold;
 }
 
-/* Navbar */
-/* .navbar {
-  margin-bottom: 0px;
-}
-
-.navbar-default {
-  color: #e6be8a;
-  border-color: #1F5F71;
-  background-color: #1F5F71;
-}
-
-.navbar-default .navbar-nav > li > a {
-  color: rgba(230,190,138,0.8);
-  background-color: transparent;
-}
-
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover {
-  color: #e6be8a;
-  background-color: transparent;
-}
-
-.navbar-brand > img {
-  opacity: 0.85;
-}
-
-.navbar-brand > img:focus,
-.navbar-brand > img:hover {
-  opacity: 1;
-}
-
-/*`
-.nav .navbar-nav .navbar-left .navbar-right > li > a {
-    color: blue;
-} */
-
 /* new Nabvar code */
 $bgDefault      : #1f5f71;
 $bgHighlight    : #94b4be;
@@ -459,17 +423,6 @@ $dropDown       : true;
     color: $colHighlight;
     background-color: $bgHighlight; }}
 
-.nav .navbar-nav .navbar-left .navbar-right > li > a {
-    color: #e6be8a;
-}
-
-.nav .navbar-item {
-    color: #e6be8a;
-}
-
-.nav .navbar-link {
-    color: #e6be8a;
-} */
 
 /* Primary Buttons */
 .btn-primary {
