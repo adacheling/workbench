@@ -494,23 +494,10 @@ a:focus {
 
 .nav .navbar-item {
     color: #e6be8a;
-	&:hover {
-		color: #a17a48;
-	}
 }
 
 .nav .navbar-link {
     color: #e6be8a;
-	&:hover {
-		color: #a17a48;
-	}
-}
-
-.tabs {
-    color: #e6be8a;
-	&:hover {
-		color: #a17a48;
-	}
 }
 
 /* Primary Buttons */
