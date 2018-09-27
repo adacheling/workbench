@@ -19,12 +19,12 @@ function buildNav(nav, path) {
 }
 
 export default ({ nav, path }) => {
-  const { Operate } = nav.find(obj => ('Operate' in obj));
+  const { Build } = nav.find(obj => ('Operate' in obj));
 
   return (
     <div className="tabs">
       <ul>
-        {buildNav(Operate, path)}
+        {buildNav(Build, path)}
       </ul>
     </div>
   );
