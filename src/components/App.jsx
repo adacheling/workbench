@@ -72,10 +72,16 @@ class App extends React.Component {
                     </span>
                   )}
                 />
-				<Route exact path="/solution/operate" component={Operate} />
-				<Route exact path="/solution/operaterun" component={OperateRun} />
-				<Route exact path="/solution/visualize" component={Visualize} />
-				<Route exact path="/solution/visreview" component={VisReview} />
+				  <span>
+					<TabsOperate
+						nav={navSwitch(props.location.pathname)}
+						path={props.location.pathname}
+                    />
+					<Route exact path="/solution/operate" component={Operate} />
+					<Route exact path="/solution/operaterun" component={OperateRun} />
+					<Route exact path="/solution/visualize" component={Visualize} />
+					<Route exact path="/solution/visreview" component={VisReview} />
+				  </span>
               </Switch>
             </main>
             <aside className="column is-one-quarter">
