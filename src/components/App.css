@@ -492,17 +492,17 @@ a:focus {
     color: #e6be8a;
 }
 
-.navbar-item {
+.nav .navbar-item {
     color: #e6be8a;
-    &:hover {
-      color: #a17a48; 
+	&:hover {
+		color: #a17a48;
 	}
 }
 
-.navbar-link {
+.nav .navbar-link {
     color: #e6be8a;
-    &:hover {
-      color: #a17a48; 
+	&:hover {
+		color: #a17a48;
 	}
 }
 
