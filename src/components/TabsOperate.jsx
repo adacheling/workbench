@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
-/* function buildNav(nav, path) {
+function buildNav(nav, path) {
   return nav.map((link) => {
     // the nav links are objs (key/val)
     const [linkTitle, linkDest] = Object.entries(link)[0];
@@ -16,9 +16,9 @@ import './App.css';
       </li>
     );
   });
-} */
+} 
 
-function buildNav(nav, path) {
+/* function buildNav(nav, path) {
 	return ({nav && nav.length && nav.map((link) => {
 		const [linkTitle, linkDest] = Object.entries(link)[0];
 		
@@ -32,7 +32,7 @@ function buildNav(nav, path) {
 		);
 		});
 	})
-}
+} */
 
 export default ({ nav, path }) => {
   const { Operate } = nav.find(obj => ('Operate' in obj));
