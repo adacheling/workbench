@@ -78,7 +78,7 @@ class App extends React.Component {
                   path="/solution/operate"
                   render={props => (
                     <span>
-                      <TabsBuild
+                      <TabsOperate
                         nav={navSwitch(props.location.pathname)}
                         path={props.location.pathname}
                       />
