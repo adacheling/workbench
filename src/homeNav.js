@@ -60,6 +60,7 @@ module.exports = (key) => {
 	case 'solution':
 	case 'solution/workspace':
     case '/solution/build':
+	  return build;
     case '/solution/build/search':
     case '/solution/build/elicit':
     case '/solution/build/discover':
@@ -68,13 +69,11 @@ module.exports = (key) => {
     case '/solution/build/adapt':
     case '/solution/build/deploy':
 	case '/solution/operate':
-		return operate;
+	  return operate;
 	case '/solution/operaterun':
 	case 'solution/visualize':
-		return visualize;
+	  return visualize;
 	case 'solution/visreview':
-      return build;
-
     default:
       return home;
   }
