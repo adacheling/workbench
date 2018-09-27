@@ -165,10 +165,14 @@ $dropDown       : true;
 
 .navbar-item {
     color: #e6be8a;
+	&:hover, &:focus {
+      color: $colHighlight; }
 }
 
 .navbar-link {
     color: #e6be8a;
+	&:hover, &:focus {
+      color: $colHighlight; }
 }
 
 .footer {
