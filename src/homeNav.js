@@ -5,7 +5,7 @@ const home = [
   { Catalog: '' },
   {
     Solution: [
-      { Build: '/solution/workspace' },
+      { Build: '/solution/build' },
       { Operate: '/solution/operate' },
       { Visualize: '/solution/visualize' },
     ],
@@ -39,7 +39,7 @@ const operate = [
   { File: '' },
   { Edit: '' },
   { View: '' },
-  { Build: '/solution/workspace' },
+  { Build: '/solution/build' },
   { Operate: '/solution/operate' },
   { Visualize: '/solution/visualize' },
   { Help: '' },
@@ -49,7 +49,7 @@ const visualize = [
   { File: '' },
   { Edit: '' },
   { View: '' },
-  { Build: '/solution/workspace' },
+  { Build: '/solution/build' },
   { Operate: '/solution/operate' },
   { Visualize: '/solution/visualize' },
   { Help: '' },
